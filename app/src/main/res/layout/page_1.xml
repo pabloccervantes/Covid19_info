@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulverde">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="¿Estuviste de viaje en las zonas de riesgo durante los últimos 14 días?"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:layout_width="263dp"
+        android:layout_height="438dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3">
+
+        <RadioButton
+            android:id="@+id/si_china"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:text="Sí, en China"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/si_corea"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:text="Sí, en Corea del Sur"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/si_japon"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:text="Sí, en Japón"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/si_iran"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:text="Sí, en Irán"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/si_europa"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:text="Sí, en Europa"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/si_eeuu"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:text="Sí, en EE. UU."
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:checked="true"
+            android:text="No, en ninguna"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@mipmap/china" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/corea" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/japon" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/iran" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/europa" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/eeuu" />
+
+</RelativeLayout>

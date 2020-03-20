@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulverde">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="¿Presentas fiebre de 38° o más?"
+        android:textColor="@color/blanco"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:layout_width="63dp"
+        android:layout_height="149dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/si_fiebre"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:text="Sí"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/no_fiebre"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:buttonTint="@color/blanco"
+            android:checked="true"
+            android:text="No"
+            android:textColor="@color/blanco"
+            android:textSize="14sp" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        app:srcCompat="@mipmap/fiebre" />
+
+</RelativeLayout>

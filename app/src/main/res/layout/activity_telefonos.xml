@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFAFF"
+    tools:context=".Telefonos">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:onClick="volver_activity_principal"
+        android:padding="15dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@mipmap/atras_invert" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Contacto"
+        android:textColor="@color/azulverde"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:id="@+id/pais_argentina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--********************Argentina**************************-->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@mipmap/argentina" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView3"
+                android:layout_toRightOf="@+id/imageView3"
+                android:fontFamily="sans-serif-medium"
+                android:text="Argentina"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio de Salud Argentina"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Línea: 107"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Teléfono: 08002221002"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	https://www.argentina.gob.ar/salud"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--************************Brasil************************-->
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/brasil" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Brasil"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministério da Saúde"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView12"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="• https://coronavirus.saude.gov.br/"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView13"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Formulario de reporte"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--**********************Chile***************************-->
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/chile" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Chile"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView16"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Teléfono: 6003607777"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView17"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	www.minsal.cl"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView18"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	www.saludresponde.cl"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--**********************Colombia************************-->
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView19"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/colombia" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView19"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Colombia"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Instituto Nacional de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView21"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Teléfono: 018000113400"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView22"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	http://www.ins.gov.co/Paginas/Inicio.aspx"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--********************Ecuador***************************-->
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView23"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/ecuador" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView23"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Ecuador"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Sistema Público de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView25"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Línea: 171"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView26"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	www.citas.med.ec"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView27"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	https://www.salud.gob.ec/"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--*******************El Salvador************************-->
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView28"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/elsalvador" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView28"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="El Salvador"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView30"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Línea: 132"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView31"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	www.salud.gob.sv"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--**********************España**************************-->
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView32"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/espana" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView32"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="España"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio de Sanidad"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView34"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Línea: 112"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView35"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	https://www.mscbs.gob.es/"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--**************Estados Unidos**************************-->
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView36"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/bandera" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView36"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Estados Unidos"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView10"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Centers for Disease Control and Prevention"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView38"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Se recomienda llamar a su proveedor de servicios de salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView39"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	https://www.cdc.gov/coronavirus/2019-nCoV/index.html"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--**********************México**************************-->
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView40"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/mexico" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView40"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="México"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView11"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Secretaría de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView42"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Teléfono: 800-0044-800"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView43"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	https://www.gob.mx/salud/documentos/nuevo-coronavirus"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--******************Puerto Rico*************************-->
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView44"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/puertorico" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView44"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Puerto Rico"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView12"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Departamento de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView46"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Línea: 311"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView47"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	www.salud.gov.pr/Coronavirus"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--**********************Perú****************************-->
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView48"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/peru" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView48"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Perú"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView13"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView50"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Línea: 113"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView51"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	WhatsApp: 952842623"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--****************República Dominicana******************-->
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView52"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/republicadominicana" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView52"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="República Dominicana"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView14"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio de Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView54"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Teléfono: 809-686-9140"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView55"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Teléfono: 1-809-200-4091"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--***********************Paraguay***********************-->
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView56"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/paraguay" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView56"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Paraguay"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView15"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio de Salud Pública y Bienestar Social"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView58"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Línea: 911"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView59"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Teléfono: (0983) 87 92 75"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView60"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	https://www.mspbs.gov.py/covid-19-viajeros.php#graficos"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <!--*********************Venezuela************************-->
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView61"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@mipmap/venezuela" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="210dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView61"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="61dp"
+                android:layout_marginRight="61dp"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4"
+                android:fontFamily="sans-serif-medium"
+                android:text="Venezuela"
+                android:textColor="@color/azulverde"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageView16"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	Ministerio del Poder Popular para la Salud"
+                android:textColor="@color/azulverde"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView63"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="•	http://www.mpps.gob.ve/"
+                android:textColor="#28B8AC"
+                android:textSize="12sp" />
+            <!--******************************************************-->
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/textView64"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text=""
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
